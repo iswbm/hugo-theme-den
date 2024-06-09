@@ -6,7 +6,7 @@ draft: false
 tags: ["notes"]
 categories: ["Notes"]
 authors:
-- bob
+- iswbm
 ---
 
 This is a simple note.

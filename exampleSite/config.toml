@@ -28,8 +28,8 @@ PygmentsUseClasses = true    # required for shhighlight shortcode
 disqusShortname = ""         # disqus_shortname
 googleAnalytics = ""         # UA-XXXXXXXX-X
 
-# language support # en / zh-tw / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
+# language support # en / zh / other... translations present in i18n/
+defaultContentLanguage = "zh"           # Default language to use
 defaultContentLanguageInSubdir = true
 
 # Links format
@@ -129,42 +129,42 @@ defaultContentLanguageInSubdir = true
     name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/iswbm/hugo-theme-den/"
 
   [[languages.en.menu.links]]
     name = "About Me"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/iswbm/hugo-theme-den/"
 
-[languages.zh-tw]
-  languageCode = "zh-tw"
-  languageName = "繁體中文"
-  contentDir = "content/zh-tw"
+[languages.zh]
+  languageCode = "zh"
+  languageName = "中文"
+  contentDir = "content/zh"
   weight = 2
 
-  [languages.zh-tw.params]
-    description = "一個簡單的佈景。"
+  [languages.zh.params]
+    description = "一个简单的布局。"
 
-  [[languages.zh-tw.menu.main]]
-    name = "筆記"
+  [[languages.zh.menu.main]]
+    name = "笔记"
     weight = 10
     identifier = "notes"
     url = "category/notes/"
-  [[languages.zh-tw.menu.main]]
+  [[languages.zh.menu.main]]
     name = "展示"
     weight = 20
     identifier = "demos"
     url = "category/demos/"
 
-  [[languages.zh-tw.menu.social]]
+  [[languages.zh.menu.social]]
     name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/iswbm/hugo-theme-den/"
 
-  [[languages.zh-tw.menu.links]]
-    name = "關於我"
+  [[languages.zh.menu.links]]
+    name = "关于我"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/iswbm/hugo-theme-den/"
