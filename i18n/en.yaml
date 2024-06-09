@@ -79,3 +79,9 @@
 
 - id: author
   translation: Author
+
+- id: insite_search
+  translation: Search
+
+- id: published_at
+  translation: "Published At: "

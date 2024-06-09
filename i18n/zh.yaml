@@ -1,26 +1,26 @@
 - id: sitemap
-  translation: 网站地图 
+  translation: 网站地图
 
 - id: tags
-  translation: 标签 
+  translation: 标签
 
 - id: categories
-  translation: 分类 
+  translation: 分类
 
 - id: social
   translation: 社群
 
 - id: links
-  translation: 友链 
+  translation: 友链
 
 - id: rss_feed
-  translation: RSS订阅 
+  translation: RSS订阅
 
 - id: tag
-  translation: 标签 
+  translation: 标签
 
 - id: category
-  translation: 分类 
+  translation: 分类
 
 - id: archive_of_tag
   translation: 标签归档：
@@ -29,7 +29,7 @@
   translation: 分类归档：
 
 - id: archive
-  translation: 归档 
+  translation: 归档
 
 - id: list_of_tags
   translation: 标签列表
@@ -57,7 +57,7 @@
   translation: 最新文章
 
 - id: page
-  translation: 页 
+  translation: 页
 
 - id: previous
   translation: 上一页
@@ -72,10 +72,16 @@
   translation: 相关文章
 
 - id: load_disqus
-  translation: 载入 Disqus 评论 
+  translation: 载入 Disqus 评论
 
 - id: translations
   translation: "翻译： "
 
 - id: author
   translation: 作者
+
+- id: insite_search
+  translation: 站内搜索
+
+- id: published_at
+  translation: 发布于：

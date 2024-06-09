@@ -76,3 +76,9 @@
 
 - id: translations
   translation: "Übersetzungen: "
+
+- id: insite_search
+  translation: Suche
+
+- id: published_at
+  translation: "Veröffentlicht am: "
