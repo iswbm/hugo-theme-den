@@ -81,4 +81,7 @@
   translation: Suche
 
 - id: published_at
-  translation: "Veröffentlicht am: "
+  translation: "Veröffentlicht am "
+
+- id: search_tips
+  translation: "Bitte geben Sie Ihren Suchbegriff direkt in das Eingabefeld unten ein"

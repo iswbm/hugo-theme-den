@@ -84,4 +84,7 @@
   translation: Search
 
 - id: published_at
-  translation: "Published At: "
+  translation: "Published At "
+
+- id: search_tips
+  translation: "Please enter your search keyword directly into the input area below"

@@ -84,4 +84,7 @@
   translation: 站内搜索
 
 - id: published_at
-  translation: 发布于：
+  translation: 发表于
+
+- id: search_tips
+  translation: "请直接在下方的输入框中输入你想要搜索的内容"

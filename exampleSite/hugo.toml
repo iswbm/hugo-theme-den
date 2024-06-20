@@ -1,8 +1,8 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://example.com"
-title = "Den"
+baseURL = "https://iswbm.com"
+title = "iswbm"
 theme = "hugo-theme-den"
 #enableRobotsTXT = true       # generate robots.txt
 enableEmoji = true           # use emoji support
@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Jane Doe"
+  name = "iswbm"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -56,10 +56,10 @@ defaultContentLanguageInSubdir = true
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
-  keywords = ["Hugo", "theme","den"]
+  keywords = ["programming","python", "golang", "blog", "k8s", "docker", "openstack"]
   description = "A simple theme for Hugo"
-  logoTitle = "Den" # shown on top-left, default: title
-  siteLogoImage = "images/globe.svg"     # shown besides logoTitle
+  logoTitle = "iswbm" # shown on top-left, default: title
+  siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Den"                   # default: title
   headerImage = "images/background.png"
   showAuthorCard = true # Whether to show author information below the article
@@ -114,28 +114,32 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/en"
   weight = 1
 
+  [languages.en.params]
+    description = "A simple layout"
+
   [[languages.en.menu.main]]
     name = "Notes"
     weight = 10
     identifier = "notes"
     url = "category/notes/"
+
+  [[languages.en.menu.social]]
+    name = "GitHub"
+    weight = 10
+    identifier = "github"
+    url = "https://github.com/iswbm"
+
   [[languages.en.menu.main]]
     name = "Demos"
     weight = 20
     identifier = "demos"
     url = "category/demos/"
 
-  [[languages.en.menu.social]]
-    name = "GitHub"
-    weight = 10
-    identifier = "github"
-    url = "https://github.com/iswbm/hugo-theme-den/"
-
   [[languages.en.menu.links]]
     name = "About Me"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/iswbm/hugo-theme-den/"
+    url = "https://github.com/iswbm"
 
 [languages.zh]
   languageCode = "zh"
@@ -151,6 +155,7 @@ defaultContentLanguageInSubdir = true
     weight = 10
     identifier = "notes"
     url = "category/notes/"
+
   [[languages.zh.menu.main]]
     name = "展示"
     weight = 20
@@ -161,10 +166,10 @@ defaultContentLanguageInSubdir = true
     name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/iswbm/hugo-theme-den/"
+    url = "https://github.com/iswbm"
 
   [[languages.zh.menu.links]]
     name = "关于我"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/iswbm/hugo-theme-den/"
+    url = "https://github.com/iswbm"
